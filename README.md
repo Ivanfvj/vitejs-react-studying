@@ -1,43 +1,56 @@
-# React + Vite app to review React + Javsascript + Typescript concepts
+# React + Vite app to review React + Javascript + Typescript concepts
 
-This repo was created with vite+reacts template from the documentation and modified with stackblitz.com
+## Description
+
+---
+
+TODO list with common concepts and questions asked on technical interviews.
+This repo was created with vite+react-ts template from the documentation and modified with stackblitz.com.
 
 ## React
 
 ---
 
-- [ ] React mount app with Dom
+- [x] React mount app with Dom
+- [ ] Virtual DOM
 - [ ] React memo,
-- [ ] React life cycle,
-- [ ] React props,
+- [ ] React life cycle
+- [ ] Class components
+- [ ] React props
 - [ ] React use callback, use effect, use state, uselayouteffect, usereducer
 - [ ] Redux, actions, reducers, dispatch
 - [ ] Redux toolkit
 - [ ] React HOC
 - [ ] Render props
 - [ ] Elevate state
+- [ ] Differences of setState in class components and hooks
 
 ## Javascript
 
 ---
 
-- [ ] Fetch, post, get, headers, rest
+- [x] Fetch, post, get, headers, rest
 - [ ] Javascript call stack
-- [ ] V8 machine
-- [ ] Primitive types
-- [ ] Hoisting
-- [ ] Closures
-- [ ] Node.js
-- [ ] Advantages, benefits, common questions
-- [ ] Streams, express, cluster-fork
-- [ ] One thread, event-driven
-- [ ] Callbacks
-- [ ] Javascript promises
-- [ ] Promise.all
-- [ ] Promise.race
-- [ ] Promise....
-- [ ] Async await
 - [ ] Javascript parser
+- [ ] V8 machine
+- [x] Primitive types
+- [x] Hoisting
+- [ ] Variables: const, let, var differences
+- [ ] Closures
+- [ ] DOM and CSSDOM
+- [x] Callbacks
+- [x] Javascript promises
+- [ ] Promise static methods
+  - [ ] Promise.all
+  - [ ] Promise.race
+  - [ ] Promise.allSettled
+  - [ ] Promise.any
+  - [ ] Promise.reject
+- [x] Async await
+- [ ] Iterators
+- [ ] Generators
+- [ ] Prototype inheritence
+- [ ] Type conversion, loose equality and strict equality
 
 ## Graphql
 
@@ -54,4 +67,18 @@ This repo was created with vite+reacts template from the documentation and modif
 
 ---
 
-- [ ] Advantages of Node.js
+- [ ] Advantages, benefits, common questions
+- [ ] Streams, express, cluster-fork
+- [ ] One thread, event-driven
+
+## Rest
+
+---
+
+- [ ] HTTP Codes
+
+# General concepts
+
+---
+
+- [ ] SPA, SSG, SSR
